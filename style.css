@@ -193,13 +193,14 @@ background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, F
 #temptxt {
   font-family: 'Signika Negative', sans-serif;
   font-style: bold;
-  font-size: 7em;
+  font-size: 8em;
   color: white;
   position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  margin-top: auto;
+  transform: translate(-50%, -50%);
 
 }
 .row {
