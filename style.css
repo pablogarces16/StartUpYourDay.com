@@ -16,11 +16,12 @@
 }
 
 body {
+  padding: 15px;
   font-family: sans-serif;
   background: #00d2ff; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #00d2ff , #3a7bd5); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+
 }
 
 .gallery {
@@ -137,7 +138,6 @@ background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, F
 }
 #quoteblock {
   border-right: solid;
-  border-bottom: solid;
   border-color: white;
   border-width: thin;
   height: 100%;
@@ -145,8 +145,6 @@ background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, F
 
 }
 #weatherblock {
-  border-left: solid;
-  border-bottom: solid;
   border-color: white;
   border-width: thin;
   height: 100%;
@@ -161,7 +159,6 @@ background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, F
   padding: 4em;
 }
 #eventblock {
-  border-left: solid;
   border-top: solid;
   border-color: white;
   border-width: thin;
