@@ -1,0 +1,233 @@
+#logo {
+  height: 100%;
+  margin-top: -5px;
+}
+.sign-in {
+  margin-right: 4px;
+}
+.navbar {
+  background-color: #34495e;
+  border-color: transparent;
+
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #136a8a; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #136a8a , #267871); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #136a8a , #267871); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+
+/* enable Flickity by default */
+.gallery:after {
+  content: 'flickity';
+  display: none; /* hide :after */
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.upload {
+  background-color: #e74c3c;
+  font-family: 'Montserrat', sans-serif;
+  border-color: transparent;
+  margin-right: auto;
+}
+.upload:hover,
+.upload:focus {
+  background-color: #7f8c8d;
+  font-family: 'Montserrat', sans-serif;
+  border-color: transparent;
+  color: white;
+}
+.uploadpage {
+  background-color: #e74c3c;
+  font-family: 'Montserrat', sans-serif;
+  border-color: transparent;
+  margin-right: auto;
+  margin-left:
+}
+.uploadpage:hover,
+.uploadpage:focus {
+  background-color: #7f8c8d;
+  font-family: 'Montserrat', sans-serif;
+  border-color: transparent;
+  color: white;
+}
+.sign-in {
+  background-color: #3498db;
+  font-family: 'Montserrat', sans-serif;
+  border-color: transparent;
+}
+.sign-in:hover,
+.sign-in:focus {
+  background-color: #7f8c8d;
+  font-family: 'Montserrat', sans-serif;
+  border-color: transparent;
+  color: white;
+}
+.nav.navbar-nav li a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav.navbar-nav li a:hover,
+.nav.navbar-nav li a:focus {
+    color: #bdc3c7;
+    background-color: #3498db;
+    font-family: 'Montserrat', sans-serif;
+}
+.carousel-caption {
+  margin-bottom: -25px;
+  font-family: 'Montserrat', sans-serif;
+}
+.howitworks {
+  width: 100%;
+  height: 400px;
+}
+.img-fluid {
+  width: 100%;
+}
+.hiwnum1 {
+  background-color: blue;
+  height: 400px;
+}
+.hiwnum2 {
+  background-color: pink;
+  height: 400px;
+}
+.hiwnum3 {
+  background-color: red;
+  height: 400px;
+}
+.hiwnum4 {
+  background-color: yellow;
+  height: 400px;
+}
+#steps {
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.badge {
+  background-color: pink;
+}
+#quoteblock {
+  border-right: solid;
+  border-bottom: solid;
+  border-color: white;
+  border-width: thin;
+  height: 100%;
+  padding: 4em;
+
+}
+#weatherblock {
+  border-left: solid;
+  border-bottom: solid;
+  border-color: white;
+  border-width: thin;
+  height: 100%;
+  padding: 4em;
+}
+#twitterblock {
+  border-right: solid;
+  border-top: solid;
+  border-color: white;
+  border-width: thin;
+  height: 100%;
+  padding: 4em;
+}
+#eventblock {
+  border-left: solid;
+  border-top: solid;
+  border-color: white;
+  border-width: thin;
+  height: 100%;
+  padding: 4em;
+}
+#weatherwid {
+  border: solid;
+  border-color: white;
+  border-width: thin;
+  border-radius: 25px;
+  height: 13em;
+}
+#weathertxt {
+  padding-bottom: 16px;
+}
+#weatherpic {
+  position: relative;
+  height: 13em;
+}
+#imagedis {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+#weathertemp {
+  position: relative;
+  height: 13em;
+}
+#temptxt {
+  font-family: 'Signika Negative', sans-serif;
+  font-style: bold;
+  font-size: 7em;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+
+}
+.row {
+  height: 25em;
+  width: auto;
+
+}
+.row2 {
+  height: 30em;
+  width: auto;
+
+}
+h4 {
+  color: #ecf0f1;
+  font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+h2 {
+  color: white;
+  font-size: 32px;
+  font-family: 'Chivo', sans-serif;
+  font-style: italic;
+
+}
+.righttext {
+  text-align:right;
+}
